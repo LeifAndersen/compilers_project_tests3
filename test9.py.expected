@@ -1,0 +1,5 @@
+(program
+ (bitwise-or
+  (bitwise-xor 3 2)
+  (bitwise-and 5 (- (bitwise-or 4 (bitwise-xor 3 3)) (bitwise-not 3)))))
+

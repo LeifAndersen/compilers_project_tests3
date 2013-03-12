@@ -1,0 +1,8 @@
+(program
+ (define b (void))
+ (define a (void))
+ (set-global! a 3)
+ (set-global!
+  b
+  (lambda () (call/ec (lambda (return) (let () (return (get-global a))))))))
+

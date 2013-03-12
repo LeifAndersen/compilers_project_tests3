@@ -1,0 +1,2 @@
+(program (define a (void)) (set-global! a 3) (set-global! a 3))
+

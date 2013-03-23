@@ -1,4 +1,0 @@
-(program
- (define i (void))
- (for-each i14 (py-list* 1 2) (begin (set-global! i i14) (let () 1 2))))
-

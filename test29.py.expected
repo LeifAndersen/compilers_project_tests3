@@ -1,9 +1,0 @@
-(program
- (let ((e15 (get-global a)))
-   (let ((i14 3))
-     (cond
-      ((py-list? e15) (py-list-ref e15 i14))
-      ((tuple? e15) (tuple-ref e15 i14))
-      ((dict? e15) (dict-ref e15 i14))
-      (else (error "cannot index object"))))))
-
